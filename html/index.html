@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>
+  G'ayratbekovichlar
+</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: Verdana, Tahoma, sans-serif;
+      color: black;
+    }
+
+    body {
+      background-image: url('/photos/family.jpg');
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+      margin: 0;
+    }
+    h1 {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      align-items: center;
+      margin-bottom:500px;
+    }
+    h1:hover{
+      background-color: blue;
+    }
+  </style>
+  <link rel="icon" type="image/x-icon" href="/photos/fifth.png">
+</head>
+<body>
+  <h1 onclick="nextPage()", id="text">Welcome to the G'ayratbekovichlar Family Page</h1>
+  <script>
+    function nextPage(){
+      window.location.href = 'loading-page.html';
+    }
+    const textElement = document.getElementById('text');
+
+textElement.addEventListener('mouseover', function() {
+    textElement.textContent = "boshqa sahifaga o'tish uchun BOSING";
+});
+textElement.addEventListener('mouseout', function(){
+  textElement.textContent = "Welcome to the G'ayratbekovichlar Family Page";
+});
+  </script>
+  <div style="background-color: red;color: black;position: fixed;
+  bottom:0%;
+  left: 23%;
+  text-align: center;">
+    <h2>
+    "created by:Javlonbek Shadmanov G'ayratbekovich"
+    </h2>
+</div>
+</body>
+</html>

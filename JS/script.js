@@ -27,5 +27,5 @@ emoji.addEventListener('mouseout', () => {
 
 // Redirect to Page 2 after 3 seconds
 setTimeout(() => {
-    window.location.href = "/photos/2ndPage.html"; // Change this to your second page
+    window.location.href = "2ndPage.html"; // Change this to your second page
 }, 3000);

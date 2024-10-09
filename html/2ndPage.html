@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>
+        G'ayratbekovichlar
+    </title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            * {
+              box-sizing: border-box;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+           /* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+    height: 100vh;
+}
+
+/* Container for the images */
+.image-container {
+    display: flex;  /* Flexbox to arrange images in a row */
+    gap: 10px;      /* Gap between images */
+}
+
+/* Styling for all images */
+.image-container img {
+    width: 100px;  /* Set the base width for the first three images */
+    height: 100px; /* Set the base height */
+    object-fit: cover; /* Ensure the images don't stretch or distort */
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+/* Special styling for the 4th image */
+.image-container img:nth-child(4) {
+    width: 300px;  /* 3 times bigger than the other images */
+    height: 300px;
+}
+.position{
+    position: fixed;
+    bottom:0%;
+    left: 23%;
+    text-align: center;
+}
+ 
+ </style>
+            <link rel="icon" type="image/x-icon" href="/photos/fifth.png">
+    </head>
+    <body>
+        <h2>
+            oilamiz birdamligining videolari:
+        </h2>
+        <video width="320" height="240" controls>
+            <source src="" type="">
+            <source src="" type="">
+            Your browser does not support the video tag.
+          </video>
+          <p>
+            hamda rasmlari:
+        </p>
+        <div class="image-container">
+            <img src="/photos/first.jpg" alt="first">
+            <img src="/photos/second.jpg" alt="second">
+            <img src="/photos/third.jpg" alt="third">
+            <img src="/photos/fourth.jpg" alt="fourth">
+        </div>
+        <div class="position" style="border-radius: 10px; background-color: blue; 
+        color: chocolate; height: 100px;
+        border: 6px solid black;">
+            <b>apaylar manga oilaviy videolarimiz bosa tashavoringlarchi
+            ularniyam qo'shib chiroyliq qb ishlayman yanayam</b>
+            <div style="background-color: red;color: black;">
+                <h2>
+                "created by:Javlonbek Shadmanov G'ayratbekovich"
+                </h2>
+            </div>
+        </div>
+    </body>
+</html>
