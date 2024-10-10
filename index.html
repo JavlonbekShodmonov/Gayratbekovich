@@ -33,6 +33,16 @@
     h1:hover{
       background-color: blue;
     }
+@media screen and (max-width: 600px){
+  #text {
+   width: 100%;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   margin-bottom: 0;
+   height: auto;
+  }
+ }
   </style>
   <link rel="icon" type="image/x-icon" href="/photos/fifth.png">
 </head>
@@ -40,7 +50,7 @@
   <h1 onclick="nextPage()", id="text">Welcome to the G'ayratbekovichlar Family Page</h1>
   <script>
     function nextPage(){
-      window.location.href = '/public/loading-page.html';
+      window.location.href = 'public/loading-page.html';
     }
     const textElement = document.getElementById('text');
 
