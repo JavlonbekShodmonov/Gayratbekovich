@@ -91,3 +91,13 @@ body {
         transform: scaleY(0.1);
     }
 }
+@media screen and (max-width: 600px){
+    #text {
+     width: 100%;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     margin-bottom: 0;
+     height: auto;
+    }
+   }
